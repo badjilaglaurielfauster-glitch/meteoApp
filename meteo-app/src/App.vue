@@ -20,7 +20,7 @@ const lookWeather = async ({city, apiKey}) => {
         params: {
           key: apiKey, // 🔑 remplace par ta clé
           q: city,
-          days: 3,
+          days: 4,
           lang: 'fr'
         }
       }

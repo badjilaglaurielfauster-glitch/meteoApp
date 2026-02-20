@@ -1,10 +1,15 @@
 <script setup>
 
   defineProps({
-    label: String,
-    value: Number,
-    unit : String
-
+    label: {
+    type: String,
+    required: true
+  },
+  value: {
+    type: [Number, String],
+    default: 0
+  },
+  unit: String
   })
 
 </script>
